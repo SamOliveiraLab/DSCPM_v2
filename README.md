@@ -1,4 +1,4 @@
-# DSCPM v2 — Dual Syringe Continuous Perfusion Module
+# DSCPM v2 - Dual Syringe Continuous Perfusion Module
 
 A PyQt5 desktop application for controlling dual syringe pumps via Arduino over USB serial. Supports multiple pump connections, four flow behavior modes, scheduled command sequences, and experiment file generation.
 
@@ -43,7 +43,7 @@ DSCPM_v2/
 ├── Arduino_code/
 │   └── pump_JS_07222025.ino    # Arduino firmware for pump control
 ├── Python code/
-│   ├── GUI.py                  # Entry point — launches the application
+│   ├── GUI.py                  # Entry point - launches the application
 │   ├── pump_app.py             # Main window, all GUI logic and widgets
 │   ├── arduino_cmds.py         # Serial communication wrapper
 │   ├── autoport.py             # USB port auto-detection and connection
@@ -102,7 +102,7 @@ Type a USB serial number (e.g. `054433A493735191B7D8`) or a device path (e.g. `/
 ### Multiple Pumps
 
 1. Enter the number of pumps (1–10) in the "Connect multiple pumps" field and press Enter.
-2. A popup window appears — enter the serial number for each pump.
+2. A popup window appears - enter the serial number for each pump.
 3. Click **Collect Serial #s**. The software connects to each Arduino and adds them to the pump dropdown.
 4. Use the dropdown to switch between connected pumps.
 
@@ -167,7 +167,7 @@ Command sent: `FLOWC,{rate},{freq},{amplitude}`
 
 ### Pulse of Oscillation
 
-Pulsed bursts of oscillatory flow — combines both behaviors.
+Pulsed bursts of oscillatory flow - combines both behaviors.
 
 | Parameter | Description |
 |-----------|-------------|
@@ -240,7 +240,7 @@ Click the purple **Create Experiment** button to open a dialog for building comm
 
 ### Generating the File
 
-Click **Generate & Save File**. A save dialog appears — choose a location and filename. The software:
+Click **Generate & Save File**. A save dialog appears - choose a location and filename. The software:
 
 1. Writes the `.txt` file to disk in the standard command format.
 2. Loads it as the current file in the main GUI.
@@ -271,10 +271,10 @@ SERIAL*********COMMAND#########DELAY%%%%%%%%%SERIAL*********COMMAND#########DELA
 ```
 
 This sequence:
-1. At 0s — Turn pump on
-2. At 2s — Constant flow at 10 uL/min
-3. At 30s — Switch to pulse mode (15 uL/min, 50% duty, 2 Hz)
-4. At 60s — Turn pump off
+1. At 0s - Turn pump on
+2. At 2s - Constant flow at 10 uL/min
+3. At 30s - Switch to pulse mode (15 uL/min, 50% duty, 2 Hz)
+4. At 60s - Turn pump off
 
 ---
 
@@ -332,6 +332,6 @@ Communication runs at **9600 baud**. The Arduino sends `READY` on startup; Pytho
 **File displays "no valid commands found"**
 - Check that the file uses the correct format: `SERIAL*********COMMAND#########DELAY` with `%%%%%%%%%` separators.
 
-**Multiple pumps — wrong pump receives commands**
+**Multiple pumps - wrong pump receives commands**
 - Use the pump dropdown to select which pump you're controlling manually.
 - In text files, make sure each command line uses the correct serial number for the target pump.

@@ -41,7 +41,7 @@ Type a USB serial number (e.g., `054433A493735191B7D8`) or a device path (e.g., 
 ### Multiple Pumps
 
 1. Enter the number of pumps (1-10) in the "Connect multiple pumps" field and press Enter.
-2. A popup appears — enter the serial number for each pump.
+2. A popup appears - enter the serial number for each pump.
 3. Click **Collect Serial #s**. The software connects to each Arduino.
 4. Use the dropdown to switch between connected pumps.
 

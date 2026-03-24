@@ -53,7 +53,7 @@ Back-and-forth flow.
 
 ## Pulse of Oscillation
 
-Pulsed bursts of oscillatory flow — combines both behaviors.
+Pulsed bursts of oscillatory flow - combines both behaviors.
 
 | Parameter | Description |
 |-----------|-------------|

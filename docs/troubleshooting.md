@@ -54,7 +54,7 @@ with `%%%%%%%%%` between entries.
 
 ---
 
-### Multiple pumps — wrong pump receives commands
+### Multiple pumps - wrong pump receives commands
 
 - Use the pump dropdown to select which pump you're controlling manually.
 - In text files, make sure each command uses the correct serial number for the target pump.

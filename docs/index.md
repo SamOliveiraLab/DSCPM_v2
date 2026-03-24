@@ -34,11 +34,11 @@ A PyQt5 desktop application for controlling dual syringe pumps via Arduino over 
 
 DSCPM v2 provides a graphical interface for researchers to control syringe pump hardware without writing code. Key capabilities include:
 
-- **Multi-pump support** — connect and control up to 10 pumps simultaneously
-- **Four flow modes** — Constant, Pulse, Oscillation, and Pulse of Oscillation
-- **Experiment builder** — visually create timed command sequences and export them as files
-- **Pause / Resume / Restart** — full control over running experiments
-- **Live file preview** — see exactly what commands will execute before running
+- **Multi-pump support** - connect and control up to 10 pumps simultaneously
+- **Four flow modes** - Constant, Pulse, Oscillation, and Pulse of Oscillation
+- **Experiment builder** - visually create timed command sequences and export them as files
+- **Pause / Resume / Restart** - full control over running experiments
+- **Live file preview** - see exactly what commands will execute before running
 
 ## Project Structure
 
