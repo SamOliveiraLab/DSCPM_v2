@@ -1,6 +1,6 @@
 ---
 layout: default
-title: DSCPM v2
+title: DIY Dual Syringe Pump
 ---
 
 # DSCPM v2
@@ -32,7 +32,7 @@ A PyQt5 desktop application for controlling dual syringe pumps via Arduino over 
 
 ## Overview
 
-DSCPM v2 provides a graphical interface for researchers to control syringe pump hardware without writing code. Key capabilities include:
+DIY DSCPM provides a graphical interface for researchers to control syringe pump hardware without writing code. Key capabilities include:
 
 - **Multi-pump support** - connect and control up to 10 pumps simultaneously
 - **Four flow modes** - Constant, Pulse, Oscillation, and Pulse of Oscillation
