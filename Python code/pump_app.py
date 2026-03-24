@@ -66,7 +66,7 @@ class MainWindow(QMainWindow):
         # --- Row 0: Pump image ---
         pixmap_path = os.path.join(os.path.dirname(__file__), "pump_render.png")
         pixmap = QPixmap(pixmap_path)
-        scaled_pixmap = pixmap.scaled(400, 400, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+        scaled_pixmap = pixmap.scaled(250, 250, Qt.KeepAspectRatio, Qt.SmoothTransformation)
         self.image_label = QLabel()
         self.image_label.setPixmap(scaled_pixmap)
         self.image_label.setFixedSize(scaled_pixmap.size())
@@ -160,7 +160,7 @@ class MainWindow(QMainWindow):
         # --- Row 5: Flow Behavior ---
         self.flow_group_box = QGroupBox("Flow Behavior")
         self.flow_group_layout = QGridLayout()
-        self.flow_group_box.setMinimumSize(580, 50)
+        self.flow_group_box.setFixedWidth(500)
         # Mode dropdown
         self.flow_behavior_dropdown = QComboBox()
         self.flow_behavior_dropdown.addItems(["Constant", "Pulse", "Oscillation", "Pulse of Oscillation"])
@@ -267,6 +267,7 @@ class MainWindow(QMainWindow):
 
         # --- Row 9: Dynamic file display ---
         self.file_display_group = QGroupBox("File Contents")
+        self.file_display_group.setFixedWidth(500)
         self.file_display_layout = QVBoxLayout()
         self.file_display = QTextEdit()
         self.file_display.setReadOnly(True)
@@ -275,7 +276,7 @@ class MainWindow(QMainWindow):
         self.file_display.setPlaceholderText("No file loaded. Upload or create an experiment to see commands here.")
         self.file_display_layout.addWidget(self.file_display)
         self.file_display_group.setLayout(self.file_display_layout)
-        self.layout.addWidget(self.file_display_group, row, 0)
+        self.layout.addWidget(self.file_display_group, row, 0, alignment=Qt.AlignCenter)
         row += 1
 
     #####################################################################################################################
