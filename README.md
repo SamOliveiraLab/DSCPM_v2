@@ -1,4 +1,4 @@
-# An Open-Source Platform for Continuous Low-Flow Control
+# An Open-Source Platform Enabling Continuous, Low-Flow Control for Long-Term Operation in Biotechnology Systems
 
 A GUI software and hardware platform for imposing flow rates and behaviors in a DIY pump mechanism. Supports multiple pump connections, four flow behavior modes, scheduled command sequences, and experiment file generation.
 

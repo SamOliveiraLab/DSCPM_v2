@@ -1,9 +1,9 @@
 ---
 layout: default
-title: An Open-Source Platform for Continuous Low-Flow Control
+title: An Open-Source Platform Enabling Continuous, Low-Flow Control for Long-Term Operation in Biotechnology Systems
 ---
 
-# An Open-Source Platform for Continuous Low-Flow Control
+# An Open-Source Platform Enabling Continuous, Low-Flow Control for Long-Term Operation in Biotechnology Systems
 
 <p align="center">
   <img src="img/hero_figure.png" alt="Platform Overview - GUI, Pump Hardware, Flow Behaviors" width="900">
