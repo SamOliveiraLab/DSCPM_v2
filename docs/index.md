@@ -28,12 +28,25 @@ An open-source software and hardware platform for imposing flow rates and behavi
 
 ---
 
-## Demo
+## Demos
 
-<!-- Replace VIDEO_ID with your actual YouTube video ID -->
-<p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-</p>
+<!-- Replace VIDEO_ID_GUI, VIDEO_ID_FIRMWARE, VIDEO_ID_HARDWARE with your actual YouTube video IDs -->
+<table align="center">
+  <tr>
+    <td align="center">
+      <iframe width="320" height="180" src="https://www.youtube.com/embed/VIDEO_ID_GUI" frameborder="0" allowfullscreen></iframe>
+      <br><b>GUI Demo</b>
+    </td>
+    <td align="center">
+      <iframe width="320" height="180" src="https://www.youtube.com/embed/VIDEO_ID_FIRMWARE" frameborder="0" allowfullscreen></iframe>
+      <br><b>Firmware Demo</b>
+    </td>
+    <td align="center">
+      <iframe width="320" height="180" src="https://www.youtube.com/embed/VIDEO_ID_HARDWARE" frameborder="0" allowfullscreen></iframe>
+      <br><b>Hardware Demo</b>
+    </td>
+  </tr>
+</table>
 
 ---
 
