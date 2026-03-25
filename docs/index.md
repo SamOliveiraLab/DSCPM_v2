@@ -1,6 +1,6 @@
 ---
 layout: default
-title: DIY Pump Platform
+title: An Open-Source Platform for Continuous Low-Flow Control
 ---
 
 # An Open-Source Platform for Continuous Low-Flow Control
