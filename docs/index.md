@@ -15,19 +15,6 @@ An open-source software and hardware platform for imposing flow rates and behavi
 
 ---
 
-## Quick Links
-
-| Page | Description |
-|------|-------------|
-| [Setup & Installation](setup.html) | Requirements, dependencies, and how to run |
-| [GUI User Guide](guide.html) | Full walkthrough of every feature |
-| [Flow Behaviors](flow.html) | Constant, Pulse, Oscillation, and Pulse of Oscillation modes |
-| [Experiment Builder](experiment.html) | Creating and running scheduled experiments |
-| [Arduino Protocol](protocol.html) | Command format between Python and the microcontroller |
-| [Troubleshooting](troubleshooting.html) | Common issues and fixes |
-
----
-
 ## Demos
 
 <!-- Replace VIDEO_ID_GUI, VIDEO_ID_FIRMWARE, VIDEO_ID_HARDWARE with your actual YouTube video IDs -->
@@ -47,6 +34,19 @@ An open-source software and hardware platform for imposing flow rates and behavi
     </td>
   </tr>
 </table>
+
+---
+
+## Quick Links
+
+| Page | Description |
+|------|-------------|
+| [Setup & Installation](setup.html) | Requirements, dependencies, and how to run |
+| [GUI User Guide](guide.html) | Full walkthrough of every feature |
+| [Flow Behaviors](flow.html) | Constant, Pulse, Oscillation, and Pulse of Oscillation modes |
+| [Experiment Builder](experiment.html) | Creating and running scheduled experiments |
+| [Arduino Protocol](protocol.html) | Command format between Python and the microcontroller |
+| [Troubleshooting](troubleshooting.html) | Common issues and fixes |
 
 ---
 
