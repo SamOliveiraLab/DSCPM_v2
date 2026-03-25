@@ -1,6 +1,12 @@
-# DIY Dual Syringe Pump
+# An Open-Source Platform for Continuous Low-Flow Control
 
-A PyQt5 desktop application for controlling dual syringe pumps via Arduino over USB serial. Supports multiple pump connections, four flow behavior modes, scheduled command sequences, and experiment file generation.
+A GUI software and hardware platform for imposing flow rates and behaviors in a DIY pump mechanism. Supports multiple pump connections, four flow behavior modes, scheduled command sequences, and experiment file generation.
+
+## Demo Videos
+
+<!-- Replace VIDEO_ID_1 and VIDEO_ID_2 with your actual YouTube video IDs -->
+[![Demo Video 1](https://img.youtube.com/vi/VIDEO_ID_1/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_1)
+[![Demo Video 2](https://img.youtube.com/vi/VIDEO_ID_2/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_2)
 
 ---
 

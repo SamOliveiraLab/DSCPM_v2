@@ -1,16 +1,14 @@
 ---
 layout: default
-title: DIY Dual Syringe Pump
+title: DIY Pump Platform
 ---
 
-# DIY Dual Syringe Pump
+# An Open-Source Platform for Continuous Low-Flow Control
 
-**DIY Dual Syringe Pump Software**
-
-A PyQt5 desktop application for controlling dual syringe pumps via Arduino over USB serial. Supports multiple pump connections, four flow behavior modes, scheduled command sequences, and visual experiment building.
+An open-source software and hardware platform for imposing flow rates and behaviors in a DIY pump mechanism. Includes a GUI front-end, Arduino firmware, and programmable flow behavior modes.
 
 <p align="center">
-  <img src="img/pump_render.png" alt="DIY Dual Syringe Pump" width="300">
+  <img src="img/platform_overview.png" alt="Platform Overview - GUI, Pump, Flow Behaviors" width="650">
 </p>
 
 [View on GitHub](https://github.com/SamOliveiraLab/DIY_DSCPM){: .btn }
@@ -30,20 +28,35 @@ A PyQt5 desktop application for controlling dual syringe pumps via Arduino over 
 
 ---
 
-## Overview
+## Demo Videos
 
-The DIY Dual Syringe Pump software provides a graphical interface for researchers to control syringe pump hardware without writing code. Key capabilities include:
+<!-- Replace VIDEO_ID_1 and VIDEO_ID_2 with your actual YouTube video IDs -->
+<p align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+</p>
 
-- **Multi-pump support** - connect and control up to 10 pumps simultaneously
-- **Four flow modes** - Constant, Pulse, Oscillation, and Pulse of Oscillation
-- **Experiment builder** - visually create timed command sequences and export them as files
-- **Pause / Resume / Restart** - full control over running experiments
-- **Live file preview** - see exactly what commands will execute before running
+<p align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+</p>
+
+---
+
+## The Platform
+
+<p align="center">
+  <img src="img/pump_exploded.png" alt="Pump Hardware - Exploded View" width="500">
+</p>
+
+The platform consists of three core components:
+
+- **GUI (Front-End)** - a desktop application to control flow rates, behaviors, and run scheduled experiments
+- **DIY Pump Hardware** - a 3D-printed syringe pump driven by servo motors and solenoid valves
+- **Flow Behaviors** - four programmable modes: Constant, Pulse, Oscillation, and Pulse of Oscillation
 
 ## Project Structure
 
 ```
-DIY-Dual-Syringe-Pump/
+DIY_DSCPM/
 ├── Arduino_code/
 │   └── pump_JS_07222025.ino    # Arduino firmware
 ├── Python code/
