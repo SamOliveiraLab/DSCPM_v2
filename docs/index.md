@@ -26,7 +26,7 @@ This platform provides open-source software and hardware for imposing programmab
       <br><b>Firmware Demo</b>
     </td>
     <td align="center">
-      <iframe width="320" height="180" src="https://www.youtube.com/embed/VIDEO_ID_HARDWARE" frameborder="0" allowfullscreen></iframe>
+      <iframe width="320" height="180" src="https://www.youtube.com/embed/BdsErtyMBxU" frameborder="0" allowfullscreen></iframe>
       <br><b>Hardware Demo</b>
     </td>
   </tr>
