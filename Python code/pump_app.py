@@ -556,10 +556,13 @@ class MainWindow(QMainWindow):
             return
 
         # Stop current worker
-        if self.worker and self.thread and self.thread.isRunning():
-            self.worker.stop()
-            self.thread.quit()
-            self.thread.wait()
+        try:
+            if self.worker and self.thread and self.thread.isRunning():
+                self.worker.stop()
+                self.thread.quit()
+                self.thread.wait()
+        except RuntimeError:
+            pass
 
         self.paused = False
         self.worker_running = False
@@ -838,7 +841,12 @@ class MainWindow(QMainWindow):
     def exit_text_file_button_clicked(self):
         if not self.connected or self.current_board is None:
             self.warn_no_connection()
-        elif self.worker and self.thread and self.thread.isRunning():
+            return
+        try:
+            running = self.worker and self.thread and self.thread.isRunning()
+        except RuntimeError:
+            running = False
+        if running:
             self.worker.stop()
             self.thread.quit()
             self.scheduled_commands = []
