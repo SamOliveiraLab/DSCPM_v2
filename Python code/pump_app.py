@@ -561,7 +561,7 @@ class MainWindow(QMainWindow):
         }
 
     def _restore_manual_state(self, state):
-        """Re-apply a saved manual pump configuration."""
+        """Restore manual UI after pause; resume only turns the pump back on (123)."""
         if not state or self.current_board is None:
             return
         board = self.current_board
@@ -584,10 +584,6 @@ class MainWindow(QMainWindow):
             self.on_off_button.setText('Pump: ON')
             self.on_off_button.setStyleSheet('background-color: #2eb774; color: white; padding: 5px;')
             self.direction_button.setText('Direction: -->' if self.fwd else 'Direction: <--')
-            if state.get('flow_cmd'):
-                board.sendcommand(state['flow_cmd'])
-            elif state['flowrate'] > 0:
-                board.sendcommand(str(state['flowrate']))
         else:
             board.sendcommand('0')
             self.is_on = False
