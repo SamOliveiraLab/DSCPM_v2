@@ -1,0 +1,13 @@
+[project]
+name = "diy-dscpm"
+version = "0.1.0"
+description = "GUI for DIY syringe pump flow control"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "PyQt5>=5.15",
+    "pyserial>=3.5",
+]
+
+[tool.uv]
+package = false

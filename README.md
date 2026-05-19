@@ -36,7 +36,15 @@ A GUI software and hardware platform for imposing flow rates and behaviors in a 
 - pyserial
 - Arduino board with the DSCPM firmware loaded (`pump_JS_07222025.ino`)
 
-Install Python dependencies:
+Install Python dependencies (pick one):
+
+**uv (recommended):**
+
+```bash
+uv sync
+```
+
+**pip:**
 
 ```bash
 pip install PyQt5 pyserial
@@ -63,9 +71,17 @@ DSCPM_v2/
 
 2. **Connect hardware**: Plug the Arduino into your computer via USB. Note the serial number or device path if you plan to use manual connection.
 
-3. **Install dependencies**: Run `pip install PyQt5 pyserial` in your Python environment.
+3. **Install dependencies**: Run `uv sync` (or `pip install PyQt5 pyserial`).
 
 ## Running the Application
+
+**With uv (from repo root):**
+
+```bash
+uv run python run_gui.py
+```
+
+**Classic (from `Python code`):**
 
 ```bash
 cd "Python code"

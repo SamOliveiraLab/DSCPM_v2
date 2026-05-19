@@ -1,6 +1,9 @@
 .DS_Store
 ._*
 
+# uv / Python environment
+.venv/
+
 # Build output
 dist/
 build/
