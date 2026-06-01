@@ -26,7 +26,7 @@ This platform provides open-source software and hardware for imposing programmab
     </td>
     <td align="center">
       <iframe width="420" height="236" src="https://www.youtube.com/embed/videoseries?list=PLFnID9LrU0V45JprnGNmR9SsOTn1NpvIb" frameborder="0" allowfullscreen></iframe>
-      <br><b><a href="https://www.youtube.com/playlist?list=PLFnID9LrU0V45JprnGNmR9SsOTn1NpvIb">Edge Detection Playlist</a></b>
+      <br><b>Edge Detection Playlist</b>
     </td>
   </tr>
 </table>
